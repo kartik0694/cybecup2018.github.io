@@ -46,7 +46,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: orangered;
+  background-color:#F4831C;
   border-radius: 4px;
   padding: 0 2px;
   /*outline: 1px solid #333;*/
@@ -199,12 +199,12 @@ body{
 .para{
   font-family: 'Exo2.0-Bold',sans-serif;
   font-size: 10em;
-  color:orangered;
+  color:#F4831C;
   height: 0px;
   width: 50%;
   text-align: right;
   box-sizing: border-box;
-  text-shadow: gold 0 0 20px, gold 8px 5px 5px;
+ 
 }
 
 .digm{
