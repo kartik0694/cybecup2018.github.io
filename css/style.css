@@ -4,7 +4,7 @@
 #cd2929 red
 #f5f5f5 white
 #212121 black
-
+#F4831C   Cybercup color
 */
 
 
@@ -129,7 +129,7 @@ body{
 .nav a:hover, .nav-active{
   /*background : url("../img/nav-bg.png") no-repeat;*/
   background-position: center bottom !important;
-  color: #fff !important;
+  color:#fff !important;
   transition: background 0.3s linear,color 0.3s linear;
 }
 
@@ -249,7 +249,7 @@ body{
   .section-title p{font-size: 0.5em; margin: 0; line-height: 3px;}
 
   .about-para{width: 80%; margin: 0 auto; padding: 40px 0; text-align: center; font-family: "Exo2.0-Regular",sans-serif;}
-  .about-para span{color: #cd2929; font-weight: bold;}
+  .about-para span{color: #F4831C; font-weight: bold;}
 
   .main-logo-container{width: 100%; height: 300px;}
   .main-logo{width: 250px; margin: 0 auto; overflow: hidden;}
@@ -258,7 +258,7 @@ body{
   .num-event{width: 33.3333333333%; box-sizing: border-box; float: left;}
   .event-date{width: 33.3333333333%; box-sizing: border-box; float: left;}
   .cash-prize{width: 33.3333333333%; box-sizing: border-box; float: right;}
-  .num-event span, .cash-prize span, .event-date span{color: #cd2929; font-size: 3em;}
+  .num-event span, .cash-prize span, .event-date span{color: #F4831C; font-size: 3em;}
 
   .team-container, .register-container{ width: 100%; height: auto; background: #333 url("../img/tech.gif") no-repeat center center fixed; background-size: cover;}
   .black-overlay{ width: 100%; height: 100%; background: url("../img/black-pattern.png");}
@@ -266,13 +266,13 @@ body{
   .member-photo{height: 100px; width: 100px; margin: 0 auto;}
   .member-name a{text-decoration: none; color: #a4a4a4;}
   .member-name{font-size: 1.2em; color: #a4a4a4; text-transform: uppercase;}
-  .member-post{color: #cd2929; text-transform: uppercase; font-size: 0.8em;}
+  .member-post{color: #F4831C; text-transform: uppercase; font-size: 0.8em;}
   .container{text-align: center; padding-bottom: 20px !important;}
 
 
   .register-info{width: 80%; text-align: center; font-size: 1em; color: #a4a4a4; text-transform: uppercase; margin: 0 auto; padding: 30px 0;}
-  .reg-button{text-decoration: none; padding: 10px; background: #cd2929; color: #f5f5f5; font-size: 1.2em; font-family: "Exo2.0-Thin",sans-serif;}
-  .reg-button:hover{background: #de3030;}
+  .reg-button{text-decoration: none; padding: 10px; background: #F4831C; color: #f5f5f5; font-size: 1.2em; font-family: "Exo2.0-Thin",sans-serif;}
+  .reg-button:hover{background: #F4831C;}
 
   .contact-us{color:#fff; text-transform: uppercase; width: 95%; height:0px; position: relative; bottom: 138px;}
 /* NOTE: about section css ends */
@@ -325,7 +325,7 @@ body{
 .instruct{
   width:40%;
   height:100%;
-  color: #cd2929;
+  color: #F4831C;
   overflow-y: scroll;
   padding: 10px 35px;
   box-sizing: border-box;
@@ -370,7 +370,7 @@ li ol li{
   color:#FFF;
   text-align: center;
   width:60%;
-  background: #cd2929;
+  background: #F4831C;
   float:left;
 }
 
@@ -416,7 +416,7 @@ li ol li{
   color:inherit;
   font-family: 'Exo2.0-Thin',sans-serif;
   font-size: 1.8em;
-  background: #cd2929;
+  background: #F4831C;
   padding: 0.3em;
   padding-left: 0.6em;
   padding-right: 0.6em;
@@ -478,7 +478,7 @@ li ol li{
 
 
 
-.map-line{width: 100%; height: 5px; background: #cd2929;}
+.map-line{width: 100%; height: 5px; background: #F4831C;}
 .ssn-map{width: 100%; height: 400px;}
 .ssn-map iframe{width: 100%; height: 390px;}
 
@@ -494,11 +494,11 @@ footer{background: #333;}
 
 .foot a{
   text-decoration: none;
-  color: #cd2929;
+  color: #F4831C;
 }
 
 .foot a:hover{
-  color: #ab2323;
+  color: #F4831C;
 }
 
 
@@ -520,7 +520,7 @@ footer{background: #333;}
   text-transform: uppercase;
   font-family: 'Exo2.0-Bold',sans-serif;
   font-size: 1.3em;
-  color: #cd2929;
+  color: #F4831C;
   text-shadow: 1px 0px #111;
 }
 .eventhover div{width: 100%; height: 100px; padding-top: 35%;}

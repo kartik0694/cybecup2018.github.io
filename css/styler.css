@@ -25,7 +25,7 @@ html{font-size: 1em;}
   /*text-align: center;*/
 }
 .top_bar{
-  background: #cd2929;
+  background: #F4831C;
   width:100%;
   position:fixed;
   height: 5px;
@@ -65,7 +65,7 @@ html{font-size: 1em;}
   width: 40%;
 }
 .form input{
-  border: 1px solid #cd2929;
+  border: 1px solid #F4831C;
   font-family:'Exo2.0-Light';
   height: 30px;
   border-radius: 2px;
@@ -76,8 +76,8 @@ html{font-size: 1em;}
   font-size: 1em;
 }
 input:focus{
-  border: 1px solid #cd2929;
-  box-shadow: 0px 0px 5px #cd2929;
+  border: 1px solid #F4831C;
+  box-shadow: 0px 0px 5px #F4831C;
   outline: 0;
 }
 .dept input{
@@ -93,10 +93,10 @@ input:focus{
   padding: 6px;
   width:40%;
   color:#fff;
-  background: #cd2929;
+  background: #F4831C;
   font-size: 0.6em;
   /*box-shadow: 1px 1px 1px 1.5px #999;*/
-  border: solid 2px #cd2929;
+  border: solid 2px #F4831C;
   border-radius: 2px;
 }
 .submit_block{
@@ -112,7 +112,7 @@ input:focus{
 
 .foot a{
   text-decoration: none;
-  color: #cd2929;
+  color: #F4831C;
 }
 
 .foot a:hover{
