@@ -401,10 +401,10 @@ var $post_para = $(".post-para"),
 
     $("#loading-screen").slideUp(600, function(){$("html,body").css("overflow-y","auto");});
 
-    $pre_para.removeClass("invisible"); $digm.text("life");
- setTimeout(function(){$pre_para.shuffleLetters({ "text": "to" });$digm.shuffleLetters({ "text": "hack" });$digm.text("digm");},1000);
- setTimeout(function(){$pre_para.shuffleLetters({ "text": "into the" });$digm.shuffleLetters({ "text": "core" });$digm.text("digm");},2000);
- setTimeout(function(){$pre_para.shuffleLetters({ "text": "of a new" });$digm.shuffleLetters({ "text": "tech" });$digm.text("digm");},3000);
+    $pre_para.removeClass("invisible"); $digm.text("tech");
+ setTimeout(function(){$pre_para.shuffleLetters({ "text": "to" });$digm.shuffleLetters({ "text": "code" });$digm.text("digm");},1000);
+ setTimeout(function(){$pre_para.shuffleLetters({ "text": "into the" });$digm.shuffleLetters({ "text": "talk" });$digm.text("digm");},2000);
+ setTimeout(function(){$pre_para.shuffleLetters({ "text": "of a new" });$digm.shuffleLetters({ "text": "blend" });$digm.text("digm");},3000);
 
  setTimeout(function(){$pre_para.addClass("invisible");$post_para.fadeIn(600); $digm.text("cup");},4000);
 });
