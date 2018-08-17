@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #4698CD;
     font-size: 1em;
     line-height: 1.4;
     overflow-x: hidden;
@@ -26,13 +26,13 @@ html {
  */
 
  ::-moz-selection {
-     background: #cd2929;
+     background: #F4831C;
      color: #fff;
      text-shadow: none;
  }
 
  ::selection {
-     background: #cd2929;
+     background: #F4831C;
      color: #fff;
      text-shadow: none;
  }
