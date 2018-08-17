@@ -93,7 +93,7 @@ body{
 }
 .nav-box{
   height: 75px;
-  width: 600px;
+  width: 1000px;
   /*background: #00f;*/
   float: right;
 }
@@ -120,6 +120,7 @@ body{
   top: 10px;
   text-decoration: none;
   color: #f5f5f5;
+  
   padding: 29px 10px;
   background : url("../img/nav-bg.png") no-repeat;
   background-position: 300px 0px;
@@ -664,7 +665,9 @@ footer{background: #333;}
 
 /* Larger than mobile */
 @media only screen and (min-width: 320px) and (max-width:549px){
-  html{font-size: 0.48em;}
+  html{font-size: 0.37em;}
+  .digm{padding-left: 10px;}
+  .post-para{padding-left: 5px;} 
   .top-bar{height:50px;}
   .wrap960{width:98%;}
   .logo-box{left:0;height:50px;width:50px;}
