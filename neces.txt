@@ -6,15 +6,14 @@ Order :
 
 About cyber cup
 
-Events
+Events		blue	
  
-Our sponsors
- 
-Our team
+Our sponsors	white
+our team	blue
 
-Previous partners 
 
-Contact us
+  Previous partners white
+    	Contact us	blue
 
 in about cyber cup:
 About cyber cup
