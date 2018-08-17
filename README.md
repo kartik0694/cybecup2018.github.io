@@ -1,1 +1,1 @@
-# Paradigm 2k15 Website
+# Cybercup 2018 Website
