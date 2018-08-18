@@ -231,7 +231,15 @@ body{
   display: none;
   padding-right: 55px;
 }
-
+.post-post-para{
+  text-align: center;
+  line-height: 260px;
+  color: #F4831C ;
+  font-size: 2.5em;
+  font-family: 'Exo2.0-Bold',sans-serif;
+  display: none;
+  padding-right: 55px;
+}
 /* NOTE: about section css begins*/
   .about-container{
     height: auto;

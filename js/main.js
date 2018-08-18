@@ -396,6 +396,7 @@ $(document).ready(main);
 
 $(window).load(function(){
 var $post_para = $(".post-para"),
+    $post_post_para = $(".post-post-para"),
     $digm = $(".digm"),
     $pre_para = $(".pre-para");
 
@@ -406,7 +407,7 @@ var $post_para = $(".post-para"),
  setTimeout(function(){$pre_para.shuffleLetters({ "text": "into the" });$digm.shuffleLetters({ "text": "blend" });$digm.text("digm");},2000);
  setTimeout(function(){$pre_para.shuffleLetters({ "text": "of a new" });$digm.shuffleLetters({ "text": "code" });$digm.text("digm");},3000);
 
- setTimeout(function(){$pre_para.addClass("invisible");$post_para.fadeIn(600); $digm.text("cup");},4000);
+ setTimeout(function(){$pre_para.addClass("invisible");$post_para.fadeIn(600); $digm.text("cup");$post_post_para.fadeIn(600)},4000);
 });
 
 window.addEventListener("orientationchange",function(){location.reload();}, false);
