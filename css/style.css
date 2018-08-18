@@ -1,4 +1,4 @@
-
+﻿
 /*
 
 #cd2929 red
@@ -37,7 +37,7 @@ body{
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-track {
@@ -129,9 +129,10 @@ body{
 
 .nav a:hover, .nav-active{
   /*background : url("../img/nav-bg.png") no-repeat;*/
-  background-position: center bottom !important;
+  background-position: center !important;
   color:#fff !important;
   transition: background 0.1s linear,color 0.3s linear;
+  background-color: #F4831C
 }
 
 .top-bar-black {
