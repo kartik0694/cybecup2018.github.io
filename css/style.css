@@ -796,7 +796,7 @@ html{font-size: 0.75em;}
 
 
 
- .navx:hover {
+ .navx li:hover < .navx {
     transition: background 0.1s linear,color 0.3s linear;
 	background-color: #F4831C;
 }
@@ -806,9 +806,11 @@ html{font-size: 0.75em;}
 	color: black;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: rgba(0, 0, 0, 0);
     min-width: 160px;
-	padding: 10px;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom:10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 	
@@ -817,7 +819,8 @@ html{font-size: 0.75em;}
 .dropdown-content a {
     float: none;
     color: black;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -837,18 +840,17 @@ html{font-size: 0.75em;}
   display:inline-block;
   position: relative;
 }
-.navx  a{
+.navx .dropdown-content a{
   font-family: 'Exo2.0-Thin',sans-serif;
   text-transform: uppercase;
   position: relative;
   top: 10px;
   text-decoration: none;
-  color: #f5f5f5;
-  
-  padding: 29px 10px;
+  color: #F4831C;
   background : url("../img/nav-bg.png") no-repeat;
   background-position: 300px 0px;
   transition: background 0.1s linear,color 0.3s linear;
+  background-color: #f5f5f5;
 }
 
 .navx a:hover, .navx-active{
@@ -856,7 +858,7 @@ html{font-size: 0.75em;}
   background-position: center !important;
   color:#fff !important;
   transition: background 0.1s linear,color 0.3s linear;
-  background-color: #F4831C
+  background-color: #F4831C;
 }
 .navx:hover .dropdown-content {
   display: block;
