@@ -802,6 +802,7 @@ html{font-size: 0.75em;}
 }
 
 .dropdown-content {
+  font-family: 'Exo2.0-Bold',sans-serif;
 	float: none;
 	color: black;
     display: none;
@@ -817,6 +818,7 @@ html{font-size: 0.75em;}
 }
 
 .dropdown-content a {
+  font-family: 'Exo2.0-Bold',sans-serif;
     float: none;
     color: black;
     padding-left: 10px;
@@ -841,7 +843,7 @@ html{font-size: 0.75em;}
   position: relative;
 }
 .navx .dropdown-content a{
-  font-family: 'Exo2.0-Thin',sans-serif;
+  font-family: 'Exo2.0-Bold',sans-serif;
   text-transform: uppercase;
   position: relative;
   top: 10px;
