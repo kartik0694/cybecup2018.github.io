@@ -1,216 +1,338 @@
 ﻿<!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-        <title>CyberCup | 2018</title>
-        <meta name="description" content="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <title>CyberCup | 2018</title>
+  <meta name="description" content="">
   <!--      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> -->
-        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-        <meta name="theme-color" content="#333333">
-        <meta name="mobile-web-app-capable" content="yes">
-        <link rel="apple-touch-icon" href="img/plogo2k15.png">
-        <link rel="shortcut icon" href="img/plogo2k15.png" type="image/x-icon" />
-        <!-- Place favicon.ico in the root directory -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#333333">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="img/plogo2k15.png">
+  <link rel="shortcut icon" href="img/plogo2k15.png" type="image/x-icon" />
+  <!-- Place favicon.ico in the root directory -->
 
-        <style media="screen">
-          html, body{
-            overflow-y: hidden;
-          }
-         
-           .sponsor-container {
-            overflow: hidden;
-          }
-          .scroll-down {
-            z-index: 10;
-          }
-          #loading-screen{
-            background-color: #000000;
-            background-image: url('img/front2.gif');
-background-size: cover;
-            float: left;
-            position: absolute;
-            z-index: 25;
-          }
-          .loader-box{
-            width: 500px;
-            height: auto;
-            margin: auto auto;
-            position:absolute;
-             left:50%;
-             top:50%;
-             margin-left:-200px;
-             margin-top:-50px;
-             box-sizing: border-box;
-          }
-          .loader-message{
-            float: right;
-            height: 75px;
-            margin-top: -50px;
-            box-sizing: border-box;
-            text-align: left;
-            width: 80%;
-            color: #fff;
-            font-family: Helvetica, Arial, sans-serif;
-            font-variant: small-caps;
-            font-size: 24px;
-          }
-          .loading {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            border: solid 10px rgba(255, 255, 255, 0.2);
-            border-top-color: #FFF;
-            animation: spin 1s infinite linear;
-          }
-          @keyframes spin {
-            100% {
-              transform: rotate(360deg);
-            }
-          }
-          @media only screen and (min-width: 320px) and (max-width:549px){
-              .loader-box{margin-left: -240px;}
-              .loading{position: relative; bottom: 80px;
-              left:40%;}
-          }
-        </style>
-<!-- <<<<<<< HEAD -->
+  <style media="screen">
+    html,
+    body {
+      overflow-y: hidden;
+    }
 
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <!-- <link rel="stylesheet" href="css/skeleton.css" /> -->
-        <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+    .sponsor-container {
+      overflow: hidden;
+    }
 
-<!-- ======= -->
-<!-- >>>>>>> origin/master -->
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+    .scroll-down {
+      z-index: 10;
+    }
+
+    #loading-screen {
+      background-color: #000000;
+      background-image: url('img/front2.gif');
+      background-size: cover;
+      float: left;
+      position: absolute;
+      z-index: 25;
+    }
+
+    .loader-box {
+      width: 500px;
+      height: auto;
+      margin: auto auto;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -200px;
+      margin-top: -50px;
+      box-sizing: border-box;
+    }
+
+    .loader-message {
+      float: right;
+      height: 75px;
+      margin-top: -50px;
+      box-sizing: border-box;
+      text-align: left;
+      width: 80%;
+      color: #fff;
+      font-family: Helvetica, Arial, sans-serif;
+      font-variant: small-caps;
+      font-size: 24px;
+    }
+
+    .loading {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: solid 10px rgba(255, 255, 255, 0.2);
+      border-top-color: #FFF;
+      animation: spin 1s infinite linear;
+    }
+
+    @keyframes spin {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media only screen and (min-width: 320px) and (max-width:549px) {
+      .loader-box {
+        margin-left: -240px;
+      }
+      .loading {
+        position: relative;
+        bottom: 80px;
+        left: 40%;
+      }
+    }
+  </style>
+  <!-- <<<<<<< HEAD -->
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/skeleton.css" /> -->
+  <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+
+  <!-- ======= -->
+  <!-- >>>>>>> origin/master -->
+</head>
+
+<body>
+  <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <div id="loading-screen">
-          <div class="loader-box"><div class="loading"></div><div class="loader-message">Awesomeness is Loading . . .</div></div>
+  <!-- Add your site or application content here -->
+  <div id="loading-screen">
+    <div class="loader-box">
+      <div class="loading"></div>
+      <div class="loader-message">Awesomeness is Loading . . .</div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    document.getElementById('loading-screen').setAttribute("style", "width:100%; height:100%;");
+    document.getElementById('loading-screen').style.width = '100%';
+    document.getElementById('loading-screen').style.height = '100%';
+  </script>
+
+  <div class="scroll-down">
+    <img src="img/scroll-down.png" alt="scroll down" width="100%" />
+  </div>
+
+  <header class="top-bar ">
+    <div class="wrap960">
+      <div class="logo-box">
+        <div class="logo">
+          <a href="index.html">
+            <p>CyberCup</p>
+          </a>
         </div>
-
-        <script type="text/javascript">
-          window.onbeforeunload = function(){
-            window.scrollTo(0,0);
-          }
-          var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-          var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-          document.getElementById('loading-screen').setAttribute("style","width:100%; height:100%;");
-          document.getElementById('loading-screen').style.width='100%';
-          document.getElementById('loading-screen').style.height='100%';
-        </script>
-
-        <div class="scroll-down"><img src="img/scroll-down.png" alt="scroll down" width="100%"/></div>
-
-        <header class="top-bar ">
-          <div class="wrap960">
-            <div class="logo-box"><div class="logo"><a href="index.html"><p>CyberCup</p></a></div></div>
-            <div class="menu-button"> </div>
-            <div class="nav-box">
-              <ul class="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#About">About</a></li>
-                <li><a href="index.html#Events">Events</a></li>
-                <!--<li><a href="#Register">Register</a></li> -->
-                <li><a href="#About">Sponsors</a></li> 
-                <li><a href="index.html#Team">Team</a></li>
-                <li><a href="index.html#Partner">Previous Partners</a></li>
-                <li><a href="index.html#contact-us">contact-us</a></li>
-                
-              
-              </ul>
-            </div>
-          </div>
-        </header>
-
-        <div name="Home" class="home-slide">
-          <div class="overlay-pattern">
-            <div class="para-slide">
-              <div class="pre-para invisible">Lets</div>
-                <div class="para">CYBER </div><div class="digm">digm</div>
-                <br>
-                <div class="post-para">&nbsp;&nbsp;2018</div>
-                <div class="post-post-para">&nbsp;10<sup style="text-transform: lowercase;">th</sup>-11<sup style="text-transform: lowercase;">th</sup>&nbsp;October</div>
-            </div>
-          </div>
-        </div>
-
-        <div name="glimpse" class="about-container" >
-          <div class="section-title">Our Sponsors<p>&diams;&nbsp;&diams;&nbsp;&diams;</p></div>
-          <div class="about-para">
-             <p><span>Aptron</span><br><br> <a href="http://aptronnoida.in/"> <img src="img/sponsors/10.png"></img><br><br></a>
-			 Since 2003, APTRON Solutions has provided individual and corporate clients with a superior learning experience under the brand name of Netexperts Educational Services. As a trusted education partner we deliver more than 250+ IT and NON-IT training courses for 20+ vendors from such leading technology firms as Cisco, Microsoft, VMware, Oracle, SAP, CompTIA, Red Hat, Salesforce & Many More etc.
-			 <br>APTRON Solutions offers strategic training paths for the certification skills required to support today’s technologies, while offering a broad curriculum of application focused courses for clients looking to implement new/upgraded business applications. <br>
-			 <br><br><span>Shutterbug</span><br>  <a href="http://shutterbug.in"><img src="img/sponsors/09.png"></a><br>
-			 TheShutterbug.in will be making it easier to post, create, broadcast and help make business to the photographers who click brilliant images around us. 
-			 <br><br>
-                  </p> 
-          </div> 
-		  
-		  <div class="section-title">Old Sponsors<p>&diams;&nbsp;&diams;&nbsp;&diams;</p></div>
-		   <div class="about-para">
-             <p><img src="img/sponsors/11.png"></img><img src="img/sponsors/2.png"></img><img src="img/sponsors/13.png"></img><img src="img/sponsors/08.png"><br><br>></img><img src="img/sponsors/5.png"></img><img src="img/sponsors/1.png"></img><img src="img/sponsors/4.png"></img><img src="img/sponsors/07.png"></img><img src="img/sponsors/3.png"></img>
-			 
-                  </p> 
-          </div> 
-		  
-
-          
-          <div class="para-detail-container">
-            <div class="num-event">
-                <span>eight</span><br>events
-            </div>
-            <div class="event-date">
-                <span>50+</span><br>COLLEGES
-            </div>
-            <div class="cash-prize">
-                <span>&#x20B9; 1 lac </span><br>Worth prizes to be won
-            </div>
-          </div>
-
-        </div>
-
-       
-        
-
-          
-     
-  
-         <div name="Map" class="ssn-map">
-		  <!-- New Edit -->
-              <div name="contact-us" style="background:#F4831C; float: right; align: right; height: 100%; width:50%;">
-                <b><br><br><br><br><div style="color: white; padding: 20px; float: center; align: center; display: block; font-size: 2.2em">Contact Us:</b><br><br>
-                Prakhar Nagar  : +91 9711158638<br></div>
+      </div>
+      <div class="menu-button"> </div>
+      <div class="nav-box">
+        <ul class="nav">
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <div class="navx">
+              <a>About</a>
+              <div class="dropdown-content">
+                <a href="#">About CyberCup</a>
+                <a href="#">Our Motto</a>
               </div>
-            
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Amity%20University%20%2C%20Noida&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="50%" height="300"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{text-align:right; float: left; height:100%;width:50%;}.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div>
-            
-            
+            </div>
+          </li>
+          <li>
+            <a href="#Events">Events</a>
+          </li>
+          <!--<li><a href="#Register">Register</a></li> -->
+          <li>
+            <div class="navx">
+              <a>Sponsors</a>
+              <div class="dropdown-content">
+                <a href="sponsors.html">Present Sponsors</a>
+                <a href="sponsors.html">Previous Partners</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#Team">Team</a>
+          </li>
+          <li>
+            <a href="#contact-us">contact-us</a>
+          </li>
 
-          </div> 
-          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div name="Home" class="home-slide">
+    <div class="overlay-pattern">
+      <div class="para-slide">
+        <div class="pre-para invisible">Lets</div>
+        <div class="para">CYBER </div>
+        <div class="digm">digm</div>
+        <br>
+        <div class="post-para">&nbsp;&nbsp;2018</div>
+        <div class="post-post-para">&nbsp;10
+          <sup style="text-transform: lowercase;">th</sup>-11
+          <sup style="text-transform: lowercase;">th</sup>&nbsp;October</div>
+      </div>
+    </div>
+  </div>
+
+  <div name="glimpse" class="about-container">
+    <div class="section-title">Our Sponsors
+      <p>&diams;&nbsp;&diams;&nbsp;&diams;</p>
+    </div>
+    <div class="about-para">
+      <p>
+        <span>Aptron</span>
+        <br>
+        <br>
+        <a href="http://aptronnoida.in/">
+          <img src="img/sponsors/10.png"></img>
+          <br>
+          <br>
+        </a>
+        Since 2003, APTRON Solutions has provided individual and corporate clients with a superior learning experience under the
+        brand name of Netexperts Educational Services. As a trusted education partner we deliver more than 250+ IT and NON-IT
+        training courses for 20+ vendors from such leading technology firms as Cisco, Microsoft, VMware, Oracle, SAP, CompTIA,
+        Red Hat, Salesforce & Many More etc.
+        <br>APTRON Solutions offers strategic training paths for the certification skills required to support today’s technologies,
+        while offering a broad curriculum of application focused courses for clients looking to implement new/upgraded business
+        applications.
+        <br>
+        <br>
+        <br>
+        <span>Shutterbug</span>
+        <br>
+        <a href="http://shutterbug.in">
+          <img src="img/sponsors/09.png">
+        </a>
+        <br> TheShutterbug.in will be making it easier to post, create, broadcast and help make business to the photographers
+        who click brilliant images around us.
+        <br>
+        <br>
+      </p>
+    </div>
+
+    <div class="section-title">Old Sponsors
+      <p>&diams;&nbsp;&diams;&nbsp;&diams;</p>
+    </div>
+    <div class="about-para">
+      <p>
+        <img src="img/sponsors/11.png"></img>
+        <img src="img/sponsors/2.png"></img>
+        <img src="img/sponsors/13.png"></img>
+        <img src="img/sponsors/08.png">
+        <br>
+        <br>></img>
+        <img src="img/sponsors/5.png"></img>
+        <img src="img/sponsors/1.png"></img>
+        <img src="img/sponsors/4.png"></img>
+        <img src="img/sponsors/07.png"></img>
+        <img src="img/sponsors/3.png"></img>
+
+      </p>
+    </div>
+
+
+
+    <div class="para-detail-container">
+      <div class="num-event">
+        <span>eight</span>
+        <br>events
+      </div>
+      <div class="event-date">
+        <span>50+</span>
+        <br>COLLEGES
+      </div>
+      <div class="cash-prize">
+        <span>&#x20B9; 1 lac </span>
+        <br>Worth prizes to be won
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <div name="Map" class="ssn-map">
+    <!-- New Edit -->
+    <div name="contact-us" style="background:#F4831C; float: right; align: right; height: 100%; width:50%;">
+      <b>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div style="color: white; padding: 20px; float: center; align: center; display: block; font-size: 2.2em">Contact Us:</b>
+      <br>
+      <br> Prakhar Nagar : +91 9711158638
+      <br>
+      </div>
+    </div>
+
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Amity%20University%20%2C%20Noida&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="50%" height="300"></iframe>
+        <a href="https://www.pureblack.de"></a>
+      </div>
+      <style>
+        .mapouter {
+          text-align: right;
+          float: left;
+          height: 100%;
+          width: 50%;
+        }
+
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          height: 100%;
+          width: 100%;
+        }
+      </style>
+    </div>
+
+
+
+  </div>
+
 
   <!-- FOOTER -->
-          <footer>
-            <div class="foot">
-              Copyright &copy; 2018 CyberCup 2018.<br />
-              Handcrafted By <!-- <a href="http://about.me/manaskashyap">Manas Kashyap </a>and --> <a href="http://about.me/vaibhav11">Vaibhav Sharma </a> 
-            </div>
-          </footer>
+  <footer>
+    <div class="foot">
+      Copyright &copy; 2018 CyberCup 2018.
+      <br /> Handcrafted By
+      <!-- <a href="http://about.me/manaskashyap">Manas Kashyap </a>and -->
+      <a href="http://about.me/vaibhav11">Vaibhav Sharma </a>
+    </div>
+  </footer>
 
   <!-- FOOTER ENDS -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <!--<script src="js/plugins.js"></script>-->
-        <script src="js/main.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+  <!--<script src="js/plugins.js"></script>-->
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
              function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -219,5 +341,6 @@ background-size: cover;
              r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
              ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script> -->
-    </body>
+</body>
+
 </html>
