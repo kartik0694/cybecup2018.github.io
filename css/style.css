@@ -254,8 +254,7 @@ body{
   }
 .sponsor-container{
     height: auto;
-    background: #333 url("../img/tech.gif") no-repeat center center fixed;
-  background-size: cover;
+    background:  url("../img/bg_dots_black.png") ;
     
   }
 
@@ -879,4 +878,10 @@ html{font-size: 0.75em;}
 	height: 200px;
 	width: 300px;
 	
+}
+
+.nsfw {
+	
+	height: 50px;
+	width: 50px;
 }
