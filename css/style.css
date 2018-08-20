@@ -218,8 +218,8 @@ body{
   box-sizing: border-box;
   font-size: 10em;
   color: #f5f5f5;
-  font-family: 'Exo2.0-Thin',sans-serif;
-  text-shadow: gold 0 0 20px, gold 8px 5px 5px;
+  font-family: 'zilap.ttf';
+  text-shadow:#F4831C  0 0 20px, #F4831C  8px 5px 5px;
 }
 
 .post-para{
