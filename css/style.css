@@ -1,4 +1,4 @@
-﻿
+
 /*
 
 #cd2929 red
@@ -864,4 +864,10 @@ html{font-size: 0.75em;}
 }
 .navx:hover .dropdown-content {
   display: block;
+}
+
+.imghw {
+	height: 200px;
+	width: 200px;
+	
 }
