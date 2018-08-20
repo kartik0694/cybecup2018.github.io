@@ -528,7 +528,9 @@ footer{background: #333;}
 
 /* NOTE: EVENT GRID CSS BEGINS */
 .event-container{
-	background:  url("../img/tech.gif") ;}
+	height: 916px;
+	 background: #333 url("../img/tech.gif") no-repeat center center fixed;
+  background-size: cover;}
 .event_column{
   height:200px;
   cursor: pointer;
@@ -579,9 +581,9 @@ footer{background: #333;}
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+ 
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px;
   box-sizing: border-box; }
 .column,
 .columns {
