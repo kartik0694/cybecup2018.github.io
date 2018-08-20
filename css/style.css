@@ -533,7 +533,7 @@ footer{background: #333;}
 
 /* NOTE: EVENT GRID CSS BEGINS */
 .event-container{
-	height: 916px;
+	height: 800px;
 	 background: #333 url("../img/tech.gif") no-repeat center center fixed;
   background-size: cover;}
 .event_column{
