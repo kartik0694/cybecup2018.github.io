@@ -90,7 +90,10 @@
 	
 	 /* Three columns side by side */
 	 
-	 
+.row {
+  display: block;
+  margin-left: 24%;
+}
 
 .column365 {
     float: left;
@@ -102,10 +105,14 @@
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
+    .row {
+      margin: auto;
+    }
     .column365 {
         width: 100%;
         display: block;
     }
+    
 }
 
 /* Add some shadows to create a card effect */
