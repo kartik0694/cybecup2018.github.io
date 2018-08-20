@@ -29,6 +29,11 @@
   src: url('../fonts/exo_2.0/Exo2.0-Regular.eot'), url('../fonts/exo_2.0/Exo2.0-Regular.otf');
 }
 
+@font-face {
+  font-family: 'Zilap';
+  src: url('../fonts/exo_2.0/zilap.ttf') , url('../fonts/exo_2.0/zilap.ttf')
+}
+
 
 body{
     font-family: 'Exo2.0-Regular',sans-serif;
@@ -199,7 +204,7 @@ body{
 }
 
 .para{
-  font-family: 'Exo2.0-Bold',sans-serif;
+  font-family: 'zilap',sans-serif;
   font-size: 10em;
   color:#F4831C;
   height: 0px;
@@ -218,7 +223,7 @@ body{
   box-sizing: border-box;
   font-size: 10em;
   color: #f5f5f5;
-  font-family: 'zilap.ttf';
+  font-family: 'zilap',sans-serif ;
   text-shadow: #F4831C 0 0 20px, #F4831C 8px 5px 5px;
 }
 
@@ -227,7 +232,7 @@ body{
   line-height: 120px;
   color: #F4831C ;
   font-size: 3em;
-  font-family: 'Exo2.0-Bold',sans-serif;
+  font-family: 'Exo2.0',sans-serif;
   display: none;
   padding-left: 10px;
   padding-right: 55px;
