@@ -369,8 +369,8 @@ body{
 .instruct h1{
   text-align: center;
   position: relative;
-  right:15px;
-  width: 500px;
+  right:-75px;
+  width: 300px;
 }
 .instruct h3{
   text-align: center;
