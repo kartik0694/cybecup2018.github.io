@@ -880,12 +880,20 @@ html{font-size: 0.75em;}
 
 .imghw {
 	height: 200px;
-	width: 300px;
+	width: 80%;
 	
 }
 
 .nsfw {
-	
-	height: 50px;
-	width: 50px;
+	content:url("../logos/fb.png");
+	height: 45px;
+	width: 45px;
+	border-radius: 0%;
+	 -webkit-transition: box-shadow 0.1s;/* For Safari 3.1 to 6.0 */
+   transition: box-shadow 0.1s; 
 }
+
+.nsfw:hover {
+	content:url("../logos/fbh.png");
+border-radius: 0%;	
+box-shadow: 6px 6px grey;}
