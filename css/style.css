@@ -547,8 +547,12 @@ footer{background: #333;}
 /* NOTE: EVENT GRID CSS BEGINS */
 .event-container{
 	height: 800px;
+	width:100%;
+
 	 background: #333 url("../img/tech.gif") no-repeat center center fixed;
-  background-size: cover;}
+  background-size: cover;
+position:absolute;
+}
 .event_column{
   height:200px;
   cursor: pointer;
@@ -561,29 +565,9 @@ footer{background: #333;}
   padding:15px;
   background:white;
 }
-}
-.eventhover{
-  display:none;
-  width: 100%;
-  height: 200px;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Exo2.0-Bold',sans-serif;
-  font-size: 1.3em;
-  color: #F4831C;
-  text-shadow: 1px 0px #111;
-}
-.eventhover div{width: 100%; height: 100px; padding-top: 35%;}
-.event-hover-active{
-  /*display: block;*/
-  background: rgba(0, 0, 0, 0.5) url("../img/black-pattern.png");
-  /*height:200px;*/
-  position:relative;
-  bottom:200px;
-}
 
 .plus{
-  background: url("../img/more.png") no-repeat 50% 60% ;
+  background: /*url("../img/more.png")*/ no-repeat 50% 60% ;
   background-size: 20% 23%;
 }
 
