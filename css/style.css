@@ -551,7 +551,7 @@ footer{background: #333;}
 
 	 background: #333 url("../img/tech.gif") no-repeat center center fixed;
   background-size: cover;
-position:absolute;
+  position:relative;
 }
 .event_column{
   height:200px;
