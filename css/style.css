@@ -1,4 +1,4 @@
-﻿
+
 /*
 
 #cd2929 red
@@ -248,7 +248,7 @@ body{
   font-size: 2.5em;
   font-family: 'stencils' ;
   display: none;
-  padding-right: 55px;
+  word-spacing: -8px;
   margin: auto;
 }
 /* NOTE: about section css begins*/
@@ -599,6 +599,7 @@ footer{background: #333;}
   box-sizing: border-box; }
 
 .row{
+	width: 100%
   padding: 20px 0;
 }
 /* For devices larger than 400px */
