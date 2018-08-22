@@ -443,21 +443,24 @@ li ol li{
   box-sizing: border-box;
   padding-top: 35px;
 }
-.ins{
+div.ins{
   text-decoration: none;
-  color:inherit;
+  width: 15%;
+  float: center;
+  align: center;
+  color:#F4831C;
   font-family: 'Impact',Charcoal, sans-serif;
   font-size: 1.8em;
   font-weight: bold;
-  background: #FF4500;
+  background: white;
   padding: 0.4em;
   padding-left: 0.9em;
   padding-right: 0.9em;
   box-shadow: .1em .1em .2em #333;
-  border-radius: 15px;
+  border-radius: 0px;
 }
-.ins:hover{
-  background-color: #0000FF; /* blue */
+div.ins:hover{
+  background-color: black; /* blue */
     color: white;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
