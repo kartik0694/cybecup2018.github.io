@@ -889,8 +889,8 @@ html{font-size: 0.75em;}
 	height: 45px;
 	width: 45px;
 	border-radius: 0%;
-	 -webkit-transition: box-shadow 0.1s;/* For Safari 3.1 to 6.0 */
-   transition: box-shadow 0.1s; 
+	 -webkit-transition: box-shadow 0.3s;/* For Safari 3.1 to 6.0 */
+   transition: box-shadow 0.3s; 
 }
 
 .nsfw:hover {
