@@ -147,9 +147,7 @@ body{
  
 .focus:focus{
  background-position: center !important;
-
-  color:#fff !important;
-
+  color:#F4831C !important;
   transition: background 0.1s linear,color 0.3s linear;
   background-color: #F4831C;
 }
